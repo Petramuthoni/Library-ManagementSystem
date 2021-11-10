@@ -1,0 +1,32 @@
+﻿@model Library.Models.Patron.PatronIndexModel
+<h3>ptron Index</h3>
+
+<div id="patronIndex">
+    <table class="table table-striped table-condensed table-bordered"id="patronIndexTable">
+        <thead>
+            <tr>
+
+                <th>Profile Link</th>
+                <th>Last Name</th>
+                <th>First Name</th>
+                <th>Library Card Id</th>
+                <th>Overdue Fees</th>
+                <th>Home Library</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var patron in Model.Patrons) {
+            <tr>
+                <td>  <a asp-controller="Patron" asp-action="Detail" asp-route-id="@patron.Id">(profile)</a></td>
+                <td>@patron.LastName</td>
+                <td>@patron.FirstName</td>
+                <td>@patron.LibraryCardId</td>
+                <td>@patron.OverdueFees</td>
+                <td>@patron.HomeLibraryBranch</td>
+            </tr>
+
+            }
+
+        </tbody>
+    </table> 
+</div>

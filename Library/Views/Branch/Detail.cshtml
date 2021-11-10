@@ -1,0 +1,56 @@
+﻿@model  Library.Models.Branch.BranchDetailModel
+
+<div class="container">
+    <div class="page-header clearfix detailHeading">
+        <h2 class="text-muted"> Branch Information</h2>
+    </div>
+    <div class="jumbotron">
+        <div class="row">
+            <img src="@Model.ImageUrl"width="1040" height="400"/>
+
+        </div>
+        <div class="row branchInfo">
+            <div class="col-md-8">
+                <h2>@Model.Name</h2>
+
+                <div class="branchContact">
+                    <div id="branchAddress">Address: @Model.Address</div>
+                    <div id="btanchTel" >Telephone: @Model.Telephone</div>
+                </div>
+                <div id="branchDescription">
+                    <p class="caption">@Model.Description</p>
+
+                </div>
+                <div id="branchHours">
+                    <ul>
+                        @foreach(var day in @Model.HoursOpen)
+                        {
+                            <li>@day</li>
+                        }
+                    </ul>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <table>
+                    <tr>
+                        <td class="itemlabel">Date Opened:</td>
+                        <td class="itemValue">@Model.OpenDate</td>
+                    </tr>
+                    <tr>
+                        <td class="itemlabel">Number Of Patrons:</td>
+                        <td class="itemValue">@Model.NumberOfPatrons</td>
+                    </tr>
+                    <tr>
+                        <td class="itemlabel">Number Of Assets:</td>
+                        <td class="itemValue">@Model.NumberOfAssets</td>
+                    </tr>
+                    <tr>
+                        <td class="itemlabel">Value Of Assets:</td>
+                        <td class="itemValue">@Model.TotalAssetValue</td>
+                    </tr>
+                </table>
+
+            </div>
+        </div>
+    </div>
+</div>

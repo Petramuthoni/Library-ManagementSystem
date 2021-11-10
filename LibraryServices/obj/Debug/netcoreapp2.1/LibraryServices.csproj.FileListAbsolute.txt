@@ -1,0 +1,12 @@
+C:\Users\petra\source\repos\Library\LibraryServices\bin\Debug\netcoreapp2.1\LibraryServices.deps.json
+C:\Users\petra\source\repos\Library\LibraryServices\bin\Debug\netcoreapp2.1\LibraryServices.dll
+C:\Users\petra\source\repos\Library\LibraryServices\bin\Debug\netcoreapp2.1\LibraryServices.pdb
+C:\Users\petra\source\repos\Library\LibraryServices\bin\Debug\netcoreapp2.1\LibraryDatas.dll
+C:\Users\petra\source\repos\Library\LibraryServices\bin\Debug\netcoreapp2.1\LibraryDatas.pdb
+C:\Users\petra\source\repos\Library\LibraryServices\obj\Debug\netcoreapp2.1\LibraryServices.csprojAssemblyReference.cache
+C:\Users\petra\source\repos\Library\LibraryServices\obj\Debug\netcoreapp2.1\LibraryServices.csproj.CoreCompileInputs.cache
+C:\Users\petra\source\repos\Library\LibraryServices\obj\Debug\netcoreapp2.1\LibraryServices.AssemblyInfoInputs.cache
+C:\Users\petra\source\repos\Library\LibraryServices\obj\Debug\netcoreapp2.1\LibraryServices.AssemblyInfo.cs
+C:\Users\petra\source\repos\Library\LibraryServices\obj\Debug\netcoreapp2.1\LibraryServices.csproj.CopyComplete
+C:\Users\petra\source\repos\Library\LibraryServices\obj\Debug\netcoreapp2.1\LibraryServices.dll
+C:\Users\petra\source\repos\Library\LibraryServices\obj\Debug\netcoreapp2.1\LibraryServices.pdb

@@ -1,0 +1,47 @@
+﻿@{
+    ViewData["Title"] = "Home";
+}
+<br />
+
+
+<div class="container">
+    <form>
+        <div class="col-md-4">
+            <div class="card" style="width:400px" height="400px">
+                <h4 class="text-info">Library Catalog</h4>
+                <img class="card-img-top" src="~/images/books_thumb.png" alt="card image" width="200" height="200" />
+                <div class="card-body">
+
+                    <p class="card-text">  View and manage Library Assets.</p>
+                    <a class="btn btn-primary btn-sm" asp-controller="Catalog" asp-action="Index">View Catalog</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width:400px" height="400px">
+                <h4 class="text-info">Patrons</h4>
+                <img class="card-img-top" src="~/images/patron_thumb.png" alt="card image" width="200" height="200" />
+                <div class="card-body">
+
+                    <p class="card-text"> View and Manage Library Patron.</p>
+                    <a class="btn btn-primary btn-sm" asp-controller="Patron" asp-action="Index">View Patrons</a>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card" style="width:400px" height="400px">
+                <h4 class="text-info">Branches</h4>
+                <img class="card-img-top" src="~/images/library_thumb.png" alt="card image" width="200" height="200" />
+                <div class="card-body">
+
+                    <p class="card-text"> View and Manage Library Branches.</p>
+                    <a class="btn btn-primary btn-sm" asp-controller="Branch" asp-action="Index">View Library Branches</a>
+                </div>
+
+            </div>
+        </div>
+    </form>
+</div>
+
